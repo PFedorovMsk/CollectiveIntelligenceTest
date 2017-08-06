@@ -20,7 +20,6 @@
 *.qbs.user.*
 *.moc
 moc_*.cpp
-moc_*.h
 qrc_*.cpp
 ui_*.h
 Makefile*
@@ -37,3 +36,12 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user*
 
+# clang-format file
+#*.clang-format
+
+# kde ".directory" file:
+*.directory
+
+# documentation
+docs/html
+docs/latex
